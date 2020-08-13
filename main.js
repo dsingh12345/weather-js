@@ -41,24 +41,24 @@ function displayResults(weather) {
 		case 'Rain':
 		case 'Drizzle':
 		case 'Mist':
-			document.body.style.backgroundImage = 'url("/photos/rain.jpg")';
+			document.body.style.backgroundImage = 'url("photos/rain.jpg")';
 			break;
 		case 'Clear':
-			document.body.style.backgroundImage = 'url("/photos/clear.jpg")';
+			document.body.style.backgroundImage = 'url("photos/clear.jpg")';
 			break;
 		case 'Clouds':
 		case 'Smoke':
 		case 'Haze':
-			document.body.style.backgroundImage = 'url("/photos/cloudy.jpg")';
+			document.body.style.backgroundImage = 'url("photos/cloudy.jpg")';
 			break;
 		case 'Thunderstorm':
-			document.body.style.backgroundImage = 'url("/photos/strom.jpg")';
+			document.body.style.backgroundImage = 'url("photos/strom.jpg")';
 			break;
 		case 'Snow':
-			document.body.style.backgroundImage = 'url("/photos/snow.jpg")';
+			document.body.style.backgroundImage = 'url("photos/snow.jpg")';
 			break;
 		default:	
-		document.body.style.backgroundImage = 'url("/photos/default.jpg")';
+		document.body.style.backgroundImage = 'url("photos/default.jpg")';
 		
 
 	}
